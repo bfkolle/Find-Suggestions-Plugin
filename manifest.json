@@ -1,0 +1,13 @@
+{
+    "name": "Find Hidden Suggestions",
+    "version": "1.0",
+    "description": "Highlights hidden suggestions in Superdesk's editor.",
+    "manifest_version": 2,
+    "permissions": ["tabs", "*://superdesk.thetriangle.org/*"],
+    "content_scripts": [
+        {
+            "matches": ["*://superdesk.thetriangle.org/*"],
+            "js": ["script.js"]
+        }
+    ]
+}
