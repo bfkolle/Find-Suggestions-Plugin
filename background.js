@@ -6,4 +6,8 @@ chrome.runtime.onInstalled.addListener(function() {
     });
 });
 
-chrome.contextMenus.onClicked.addListener();
+chrome.contextMenus.onClicked.addListener(function() {
+    chrome.tabs.executeScript({
+        file: "script.js"
+    });
+});
