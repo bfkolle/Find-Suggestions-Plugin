@@ -8,6 +8,6 @@ chrome.runtime.onInstalled.addListener(function() {
 
 chrome.contextMenus.onClicked.addListener(function() {
     chrome.tabs.executeScript({
-        file: "script.js"
+        file: "scripts/script.js"
     });
 });

@@ -5,7 +5,12 @@
     "manifest_version": 2,
     "permissions": ["contextMenus", "activeTab", "*://superdesk.thetriangle.org/*"],
     "background": {
-        "scripts": ["background.js"],
+        "scripts": ["scripts/background.js"],
         "persistent": false
+    },
+    "icons": {
+        "16": "images/Blue_White_Icon_Web.png",
+        "48": "images/Blue_White_Icon_Web.png",
+        "128": "images/Blue_White_Icon_Web.png"
     }
 }
